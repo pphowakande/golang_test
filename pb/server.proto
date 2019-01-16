@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service Server {
+    rpc FindMaxNumber(stream Request) returns (stream Response) {}
+}
+
+message Request {
+    int64 number = 1;
+    string sign = 2;
+}
+
+message Response {
+    int64 number = 1;
+}
