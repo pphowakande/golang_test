@@ -21,11 +21,11 @@ will be signed by the private key of the client and the server will respond with
 stream of numbers (1,5,6,20).
 
 ## Project structure
-/cert - example of public
-/cmd/server - server
-/cmd/client - client
-/internal/pkg/crpt - package for sign/unsign message with public/private key
-/pb - service proto file and generate based on proto file code
+/cert - example of public <br/>
+/cmd/server - server <br/>
+/cmd/client - client <br/>
+/internal/pkg/crpt - package for sign/unsign message with public/private key <br/>
+/pb - service proto file and generate based on proto file code <br/>
 
 ## Dependencies
     github.com/golang/protobuf v1.2.0
