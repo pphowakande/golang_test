@@ -12,7 +12,7 @@ import (
 	"io/ioutil"
 )
 
-const SIGNATURE_TEXT = "Boris Britva"
+const SIGNATURE_TEXT = "Poonam Phowakande"
 
 // A Signer is can create signatures that verify against a public key.
 type Signer interface {
