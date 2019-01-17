@@ -51,7 +51,8 @@ go run cmd/client/main.go -h
 go run cmd/client/main.go  -priv-key cert/public.pem
 ```
 
-## Custom key generation
+## Custom key generation (https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/)
+
 ### Private
 ```
 openssl genrsa -out private.pem 2048
